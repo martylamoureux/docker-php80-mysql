@@ -15,3 +15,11 @@ $ docker-compose up -d
 ```
 $ docker-compose down
 ```
+
+# Ouvrir un terminal PHP
+
+(En ayant lancé le serveur en arrière-plan)
+
+```
+$ docker-compose exec php bash
+```
